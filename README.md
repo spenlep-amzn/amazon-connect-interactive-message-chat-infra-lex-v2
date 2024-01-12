@@ -53,9 +53,9 @@ Create an Amazon Connect Instance to use, follow [documentation](https://docs.aw
 | af-south-1 (Cape Town)   | [![Create Instance](https://img.shields.io/badge/Create%20Instance-%20-green.svg?logo=amazon-aws&logoColor=white)](https://af-south-1.console.aws.amazon.com/connect/v2/app/onboarding?region=af-south-1)   |
 
 
-### Lambda [![Download Lambda ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg?logo=aws-lambda&logoColor=orange&label=Download%20Lambda&color=orange)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/amazon-connect-interactive-message-chat-infra-lex-v2.zip)
+### Lambda [![Download Lambda ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg?logo=aws-lambda&logoColor=orange&label=Download%20Lambda&color=orange)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/exports/InteractiveMessage_LambdaCodeHook_LexV2Export.zip)
 
-Upload the Lambda [InteractiveMessage_LambdaCodeHook_LexV2Export.zip](./amazon-connect-interactive-message-chat-infra-lex-v2.zip) file, follow the [documentation](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html#gettingstarted-package-zip) for instructions.
+Upload the Lambda [InteractiveMessage_LambdaCodeHook_LexV2Export.zip](./exports/InteractiveMessage_LambdaCodeHook_LexV2Export.zip) file, follow the [documentation](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html#gettingstarted-package-zip) for instructions.
 
 | Region | Launch Button |
 | ------ | ------------- |
@@ -70,9 +70,9 @@ Upload the Lambda [InteractiveMessage_LambdaCodeHook_LexV2Export.zip](./amazon-c
 | ap-northeast-2 (South Korea) | [![Deploy Lambda](https://img.shields.io/badge/Create%20Lambda-%20-green.svg?logo=amazon-aws&logoColor=white)](https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2#/create/function?intent=authorFromScratch) |
 | af-south-1 (Cape Town) | [![Deploy Lambda](https://img.shields.io/badge/Create%20Lambda-%20-green.svg?logo=amazon-aws&logoColor=white)](https://af-south-1.console.aws.amazon.com/lambda/home?region=af-south-1#/create/function?intent=authorFromScratch) |
 
-### Lex Bot [![Download Lex Bot ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg?logo=amazon-aws&logoColor=lightgray&label=Download%20Lex%20Bot%20Export&color=blue)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/InteractiveMessageBot_Export_v2.zip)
+### Lex Bot [![Download Lex Bot ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg?logo=amazon-aws&logoColor=lightgray&label=Download%20Lex%20Bot%20Export&color=blue)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/exports/InteractiveMessageBot_Export_v2.zip)
 
-Create a bot and import the [InteractiveMessageBot_Export_v2.zip](./InteractiveMessageBot_Export_v2.zip) file, follow the [documentation](https://docs.aws.amazon.com/lexv2/latest/dg/import-console.html) for instructions.
+Create a bot and import the [InteractiveMessageBot_Export_v2.zip](./exports/InteractiveMessageBot_Export_v2.zip) file, follow the [documentation](https://docs.aws.amazon.com/lexv2/latest/dg/import-console.html) for instructions.
 
 | Region | Launch Button |
 | ------ | ------------- |
@@ -87,6 +87,6 @@ Create a bot and import the [InteractiveMessageBot_Export_v2.zip](./InteractiveM
 | ap-northeast-2 (South Korea) | [![Deploy Lambda](https://img.shields.io/badge/Create%20Lex%20Bot-%20-green.svg?logo=amazon-aws&logoColor=white)](https://ap-northeast-2.console.aws.amazon.com/lexv2/home?region=ap-northeast-2importBot) |
 | af-south-1 (Cape Town) | [![Deploy Lambda](https://img.shields.io/badge/Create%20Lex%20Bot-%20-green.svg?logo=amazon-aws&logoColor=white)](https://af-south-1.console.aws.amazon.com/lexv2/home?region=af-south-1#importBot) |
 
-### Contact Flow [![Download Contact Flow JSON](https://img.shields.io/badge/Download-JSON-blue.svg?logo=amazon-aws&logoColor=lightgray&label=Download%20Contact%20Flow&color=green)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/InteractiveMessageContactFlow.json)
+### Contact Flow [![Download Contact Flow JSON](https://img.shields.io/badge/Download-JSON-blue.svg?logo=amazon-aws&logoColor=lightgray&label=Download%20Contact%20Flow&color=green)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/exports/InteractiveMessageContactFlow.json)
 
-Import the [InteractiveMessaging_Flow.json](InteractiveMessaging_Flow.json) file to create an inbound contact flow, follow the [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/contact-flow-import-export.html) for more details
+Import the [InteractiveMessaging_Flow.json](./exports/InteractiveMessaging_Flow.json) file to create an inbound contact flow, follow the [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/contact-flow-import-export.html) for more details
