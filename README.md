@@ -24,6 +24,10 @@ Boilerplate for Amazon Connect Chat Interactive Message feature [Lex Bot V2]
 
 ![image](./InteractiveMessageFlowChart.png)
 
+### Chat Usage
+
+![image](./InteractiveMessageChatFlow.png)
+
 ## Specifications
 
 - Lex Bot V2 support
