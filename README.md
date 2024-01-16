@@ -90,3 +90,8 @@ Create a bot and import the [InteractiveMessageBot_LEX_V2.zip](./exports/Interac
 ### Contact Flow [![Download Contact Flow JSON](https://img.shields.io/badge/Download-JSON-blue.svg?logo=amazon-aws&logoColor=lightgray&label=Download%20Contact%20Flow&color=green)](https://github.com/spencerlepine/amazon-connect-interactive-message-chat-infra-lex-v2/blob/main/exports/InteractiveMessaging_ContactFlow_LexV2.json)
 
 Import the [InteractiveMessaging_ContactFlow_LexV2.json](./exports/InteractiveMessaging_ContactFlow_LexV2.json) file to create an inbound contact flow, follow the [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/contact-flow-import-export.html) for more details
+
+
+---
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fspenlep-amzn%2Famazon-connect-interactive-message-chat-infra-lex-v2&label=VIEWS&countColor=%23263759)
