@@ -1,3 +1,8 @@
+> ### **📢 Annoucement:** This repository is no longer maintained, it has been migrated to https://github.com/amazon-connect/amazon-connect-chat-ui-examples
+> ![Maintenance](https://img.shields.io/badge/repo-inactive-red)
+
+---
+
 # Amazon Connect Interactive Message Chat Infra [Lex V2]
 
 Boilerplate for Amazon Connect Chat Interactive Message feature [Lex Bot V2]
